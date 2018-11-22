@@ -1,0 +1,94 @@
+.footer
+{
+	display: block;
+	position: relative;
+	width: 100%;
+	background: black;
+	padding-top: 50px;
+}
+.footer_content
+{
+	padding-bottom: 20px;
+}
+.footer_logo_text
+{
+	font-family: 'Roboto Slab', serif;
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 0.75;
+	color: orange;
+}
+.footer_logo_text span
+{
+	color: green;
+}
+.footer_title
+{
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	color: #FFFFFF;
+	line-height: 0.75;
+}
+.footer_logo_container
+{
+	margin-top: -14px;
+}
+.footer_about_text
+{
+	margin-top: 31px;
+}
+.footer_about_text p
+{
+	font-size: 18px;
+	color: #b5b8be;
+}
+.footer_social
+{
+	margin-top: 20px;
+}
+.footer_social ul li
+{
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	background: #4b505d;
+	border-radius: 50%;
+}
+.footer_social ul li:not(:last-child)
+{
+	margin-right: 6px;
+}
+.footer_social ul li a
+{
+	display: block;
+	position: relative;
+	font-size: 20px;
+	text-align: center;
+}
+.footer_social ul li a i
+{
+	color: #FFFFFF;
+	line-height: 45px;
+}
+.footer_social ul li:hover
+{
+	background: #14bdee;
+}
+.footer_contact
+{
+	padding-left: 36px;
+}
+.footer_contact_info
+{
+	margin-top: 20px;
+}
+.footer_contact_info ul li
+{
+	font-size: 15px;
+	color: #b5b8be;
+}
+.copyright
+{
+	height: 40px;
+	border-top: solid 1px #353a49;
+}

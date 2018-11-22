@@ -1,0 +1,304 @@
+
+.header
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	box-shadow: 0px 5px 20px rgba(0,0,0,0.05);
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.header.scrolled
+{
+	top: -40px;
+}
+
+/*********************************
+3.1 Top Bar
+*********************************/
+
+
+
+
+
+/*********************************
+3.2 Header Content
+*********************************/
+.login
+{
+	width:40px;
+	height: 40px;
+}
+.header_container
+{
+	width: 100%;
+	/*background: #FFFFFF;*/
+	background:#0a1c3e;
+}
+.header_content
+{
+	height: 90px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.header.scrolled .header_content
+{
+	padding-top: 30px;
+	height: 100px;
+}
+
+/*********************************
+3.3 Logo
+*********************************/
+
+.logo,
+.logo_text
+{
+	display: inline-block;
+}
+.logo
+{
+	width: 60px;
+	height: 60px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.logo img
+{
+	max-width: 100%;
+}
+.logo_text
+{
+	font-family: 'Roboto Slab', serif;
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 0.75;
+	color: #FFFFFF;
+	vertical-align: middle;
+	margin-left: 7px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.logo_text span
+{
+	color: #686366;
+}
+.header.scrolled .logo
+{
+	width: 40px;
+	height: 40px;
+}
+.header.scrolled .logo_text
+{
+	font-size: 24px;
+}
+
+
+/*********************************
+3.4 Main Nav
+*********************************/
+
+.main_nav_contaner
+{
+
+}
+.main_nav,
+.search_button,
+.shopping_cart
+{
+	display: inline-block;
+}
+.main_nav li
+{
+	display: inline-block;
+	position: relative;
+}
+.main_nav li:not(:last-child)
+{
+	margin-right: 44px;
+}
+.main_nav li a
+{
+	font-size: 18px;
+	font-weight: 500;
+	color: #eceff7;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.main_nav li a:hover,
+.main_nav li.active a
+{
+	color: #adb2bb;
+}
+.main_nav li.active::after
+{
+	display: block;
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #0a1c3e;
+	content: '';
+}
+
+img
+{
+  height: 400px;
+  width: 350px;
+}
+
+section
+{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+}
+
+
+/* Card */
+
+.card-body
+{
+	font-size:18px;
+	font-family:Arial;
+	color: #6d6767;
+	line-height: 1.6;
+}
+
+.btn
+{
+	display:inline-block;
+	font-weight:400;
+	text-align:center;
+	white-space:nowrap;
+	vertical-align:middle;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	border:1px solid transparent;
+	padding:.375rem .75rem;
+	font-size:30px;
+	line-height:1.5;
+	border-radius:.25rem;
+	color:#0a1c3e;
+	
+}
+
+
+
+/*Footer*/
+
+.footer
+{
+	display: block;
+	position: relative;
+	width: 100%;
+	background: #010711;
+	padding-top: 50px;
+}
+.footer_content
+{
+	padding-bottom: 20px;
+}
+.footer_logo_text
+{
+	font-family: 'Roboto Slab', serif;
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 0.75;
+	color: #FFFFFF;
+}
+.footer_logo_text span
+{
+	color: rgb(154, 131, 158);
+}
+.footer_title
+{
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	color: #FFFFFF;
+	line-height: 0.75;
+}
+.footer_logo_container
+{
+	margin-top: -14px;
+}
+.footer_about_text
+{
+	margin-top: 31px;
+}
+.footer_about_text p
+{
+	font-size: 18px;
+	color: #b5b8be;
+}
+.footer_social
+{
+	margin-top: 20px;
+}
+.footer_social ul li
+{
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	background: #4b505d;
+	border-radius: 50%;
+}
+.footer_social ul li:not(:last-child)
+{
+	margin-right: 6px;
+}
+.footer_social ul li a
+{
+	display: block;
+	position: relative;
+	font-size: 20px;
+	text-align: center;
+}
+.footer_social ul li a i
+{
+	color: #FFFFFF;
+	line-height: 45px;
+}
+.footer_social ul li:hover
+{
+	background: #0a1c3e;
+}
+.footer_contact
+{
+	padding-left: 36px;
+}
+.footer_contact_info
+{
+	margin-top: 20px;
+}
+.footer_contact_info ul li
+{
+	font-size: 15px;
+	color: #b5b8be;
+}
+.copyright
+{
+	height: 40px;
+	border-top: solid 1px #353a49;
+}
+
