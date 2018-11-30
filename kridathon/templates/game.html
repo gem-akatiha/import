@@ -1,0 +1,334 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Kridathon | Game</title>
+<link rel="shortcut icon" href="{% static 'images/logo.jpg' %}">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="kridathon project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css">
+<link href="{% static 'plugins/font-awesome-4.7.0/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css"> 
+<link href="{% static 'plugins/video-js/video-js.css' %}" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="{% static 'css/game.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/game_responsive.css' %}">
+<noscript>
+        Please Enable Javascript in your web browser to Enjoy the full functionality of this website.
+    </noscript>
+
+</head>
+<body>
+
+<div class="super_container">
+
+<!-- Header -->
+    <header class="header">
+
+    <!-- Header Content -->
+    <div class="header_container">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="header_content d-flex flex-row align-items-center justify-content-start">
+						<div class="logo_container">
+							<a href="index.html">
+								<div class="logo_text">Krida<span>thon</span></div>
+							</a>
+						</div>
+						<nav class="main_nav_contaner ml-auto">
+							<ul class="main_nav">
+								<li><a href="#">Home</a></li>
+								<li><a href="about.html">Event</a></li>
+								<li><a href="about.html">Tournament</a></li>
+								<li class="active"><a href="game.html">Games</a></li>
+								<li><a href="summary.html">Summary</a></li>
+								<li><a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp;&nbsp;Login/Signup</a></li>
+							</ul>
+    <div class="hamburger menu_mm">
+        <i class="fa fa-bars menu_mm" aria-hidden="true"></i>
+    </div>
+    </nav>
+    
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    </header>
+<!-- Menu -->
+
+<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+	<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+	<nav class="menu_nav">
+		<ul class="menu_mm">
+			<li class="menu_mm"><a href="index.html">Home</a></li>
+			<li class="menu_mm"><a href="event.html">Event</a></li>
+			<li class="menu_mm"><a href="tournament.html">Tournament</a></li>
+			<li class="menu_mm"><a href="game.html">Games</a></li>
+			<li class="menu_mm"><a href="#">Summary</a></li>
+			<li class="menu_mm"><a href="contact.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp;&nbsp;Login/Signup</a></li>
+		</ul>
+	</nav>
+	</div>
+	
+
+<!-- Home -->
+<div class="home">
+	<div class="breadcrumbs_container">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="breadcrumbs">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>Game</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>			
+</div>
+
+<!-- Blog -->
+
+<div class="blog">
+<div class="container">
+<div class="row">
+<div class="col">
+<div class="blog_post_container">
+
+<!-- Blog Post -->
+<div class="blog_post trans_200">
+<div class="blog_post_image"><img src="{% static 'images/athletics.jpg' %}" alt="Athletic"></div>
+<div class="blog_post_body">
+<div class="blog_post_title"><a href="athletics.html">Athletic</a></div>
+<div class="blog_post_meta">
+<ul>
+<li><a href="#">About</a></li>
+<li><a href="#">Measurements</a></li>
+<li><a href="#">Rules</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<!-- Blog Post -->
+<div class="blog_post trans_200">
+<div class="blog_post_image"><img src="{% static 'images/badminton.jpg' %}" alt=""></div>
+<div class="blog_post_body">
+<div class="blog_post_title"><a href="badminton.html">Badminton</a></div>
+<div class="blog_post_meta">
+<ul>
+<li><a href="#">About</a></li>
+<li><a href="#">Measurements</a></li>
+<li><a href="#">Rules</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<!-- Blog Post -->
+<div class="blog_post trans_200">
+<div class="blog_post_image"><img src="{% static 'images/basketball.jpg' %}" alt=""></div>
+<div class="blog_post_body">
+<div class="blog_post_title"><a href="basketball.html">Basketball</a></div>
+<div class="blog_post_meta">
+<ul>
+<li><a href="#">About</a></li>
+<li><a href="#">Measurements</a></li>
+<li><a href="#">Rules</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<!-- Blog Post -->
+<div class="blog_post trans_200">
+<div class="blog_post_image"><img src="{% static 'images/chess.jpeg' %}" alt=""></div>
+<div class="blog_post_body">
+<div class="blog_post_title"><a href="chess.html">Chess</a></div>
+<div class="blog_post_meta">
+<ul>
+<li><a href="#">About</a></li>
+<li><a href="#">Measurements</a></li>
+<li><a href="#">Rules</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<!-- Blog Post -->
+<div class="blog_post trans_200">
+<div class="blog_post_image"><img src="{% static 'images/cricket.jpg' %}" alt=""></div>
+<div class="blog_post_body">
+<div class="blog_post_title"><a href="cricket.html">Cricket</a></div>
+<div class="blog_post_meta">
+<ul>
+<li><a href="#">About</a></li>
+<li><a href="#">Measurements</a></li>
+<li><a href="#">Rules</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<!-- Blog Post -->
+<div class="blog_post trans_200">
+<div class="blog_post_image"><img src="{% static 'images/football.jpg' %}" alt=""></div>
+<div class="blog_post_body">
+<div class="blog_post_title"><a href="football.html">Football</a></div>
+<div class="blog_post_meta">
+<ul>
+<li><a href="#">About</a></li>
+<li><a href="#">Measurements</a></li>
+<li><a href="#">Rules</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<!-- Blog Post -->
+<div class="blog_post trans_200">
+<div class="blog_post_image"><img src="{% static 'images/handball.jpg' %}" alt=""></div>
+<div class="blog_post_body">
+<div class="blog_post_title"><a href="handball.html">Handball</a></div>
+<div class="blog_post_meta">
+<ul>
+<li><a href="#">About</a></li>
+<li><a href="#">Measurements</a></li>
+<li><a href="#">Rules</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<!-- Blog Post -->
+<div class="blog_post trans_200">
+<div class="blog_post_image"><img src="{% static 'images/hockey.jpg' %}" alt=""></div>
+<div class="blog_post_body">
+<div class="blog_post_title"><a href="hockey.html">Hockey</a></div>
+<div class="blog_post_meta">
+<ul>
+<li><a href="#">About</a></li>
+<li><a href="#">Measurements</a></li>
+<li><a href="#">Rules</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<!-- Blog Post -->
+<div class="blog_post trans_200">
+<div class="blog_post_image"><img src="{% static 'images/volleyball.jpeg' %}" alt=""></div>
+<div class="blog_post_body">
+<div class="blog_post_title"><a href="volleyball.html">Volleyball</a></div>
+<div class="blog_post_meta">
+<ul>
+<li><a href="#">About</a></li>
+<li><a href="#">Measurements</a></li>
+<li><a href="#">Rules</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Footer -->
+
+<footer class="footer">
+	<div class="container">
+	<div class="row footer_row">
+	<div class="col">
+	<div class="footer_content">
+	<div class="row">
+	<div class="col-lg-4 footer_col">
+	
+	<!-- Footer About -->
+	<div class="footer_section footer_about">
+	<div class="footer_logo_container">
+	<a href="#">
+	<div class="footer_logo_text">Krida<span>thon</span></div>
+	</a>
+	</div>
+	<div class="footer_social">
+	<ul>
+	<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+	<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+	<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+	<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+	</ul>
+	</div>
+	</div>
+	</div>
+	
+	<div class="col-lg-3 footer_col">
+	
+	<!-- Footer Contact -->
+	<div class="footer_section footer_contact">
+	<div class="footer_title">Get Started</div>
+	<div class="footer_contact_info">
+		<ul>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="FAQ.html">FAQ</a></li>
+			<li><a href="terms.html">Terms of Use</a></li>
+		</ul>
+	</div>
+	</div>
+	
+	</div>
+	
+	<div class="col-lg-5 footer_col">
+	
+	<!-- Footer contact -->
+	<div class="footer_section footer_contact">
+	<div class="footer_title">Our Newsletter</div>
+	<div class="footer_contact_info">
+	<form action="#" id="newsletter_form" class="newsletter_form d-flex flex-row align-items-center justify-content-center">
+	<input type="email" class="newsletter_input" placeholder="Your Email" required="required">
+	<button type="submit" class="newsletter_button">subscribe</button>
+	</form>
+	</div>
+	</div>
+	
+	
+	</div>
+	
+	</div>
+	</div>
+	</div>
+	</div>
+	
+	<div class="row copyright_row">
+	<div class="col">
+	<div class="copyright d-flex flex-lg-row flex-column align-items-center justify-content-start">
+	<div class="cr_text">
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> kridathon | All rights reserved.</div>
+	</div>
+	</div>
+	</div>
+	</footer>
+
+
+
+</div>
+
+<script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+<script src="{% static 'styles/bootstrap4/popper.js' %}"></script>
+<script src="{% static 'styles/bootstrap4/bootstrap.min.js' %}"></script>
+<script src="{% static 'plugins/easing/easing.js' %}"></script>
+<script src="{% static 'plugins/masonry/masonry.js' %}"></script>
+<script src="{% static 'plugins/video-js/video.min.js' %}"></script>
+<script src="{% static 'plugins/parallax-js-master/parallax.min.js' %}"></script>
+<script src="{% static 'js/blog.js' %}"></script>
+</body>
+</html>
